@@ -20,7 +20,7 @@ primeraLetra = (archivos) => {
 		}
 		
 	}
-	console.log('Lista de archivos que empiezan con una letra: ', arregloFinal);
+	console.log('Cantidad de archivos que empiezan con una letra: ', arregloFinal.length);
 
 }
 

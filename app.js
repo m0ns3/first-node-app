@@ -9,7 +9,10 @@ const logger = require('./logger');
 
 const fs = require('fs');
 
-fs.readdir('./', (err,files)=>{
+let ruta = "C:\\Users\\Monse\\Downloads";
+
+
+fs.readdir(ruta, (err,files)=>{
 	(err) ? console.log(err) : console.log('Lista de archivos: ',files);
 	logger.ordenaImprime(files);
 	logger.primeraLetra(files);
